@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="Style-F.css">
+</head>
+<body>
+  <div class="ror">
+    <div id="menubar">
+        <ul id="menu">
+          <li><a href="index.html">INICIO</a></li>
+          <li class="selected"><a href="Formulario.html">FORMULARIO</a></li>
+        </ul>
+    </div>      
+      <div>
+        <form id="basic-form" action="" method="post">
+            <p>
+              <label for="name">Nombre <span>(Requiere un min. de 3 caracteres)</span></label>
+              <input id="name" name="name" minlength="3" type="text" required>
+            </p>
+            <p>
+              <label for="email">Correo <span>(requerido)</span></label>
+              <input id="email" type="email" name="email" required>
+            </p>
+            <p>
+              <label for="Rut">Rut <span>(requerido)</span></label>
+              <input id="Rut" type="Rut" name="Rut" required>
+            </p>
+            <br>en que le gustaria participar</br>
+            <textarea name="" id="" cols="50" rows="4"></textarea>
+            <p>
+              <input class="submit" type="submit" value="SUBMIT">
+              <input type="reset">
+            </p>
+        </form>
+      </div>
+  </div>
+</body>
+</html>
