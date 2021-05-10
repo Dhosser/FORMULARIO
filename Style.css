@@ -1,0 +1,60 @@
+.rar{
+    padding: -5px 547px;
+    margin: 20px 0;
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 1.25rem;
+    width: 300px;
+}
+ 
+ #menubar{
+  width: 500px;
+  height: 72px;
+  padding: 0;
+  background: #1d1c1c url(menu.png) repeat-x;
+} 
+
+ul#menu, ul#menu li
+{ float: left;
+  margin: 0; 
+  padding: 0;}
+
+ul#menu li
+{ list-style: none;}
+
+ul#menu li a
+{ letter-spacing: 0.1em;
+  font: normal 100% 'lucida sans unicode', arial, sans-serif;
+  display: block; 
+  float: left; 
+  height: 37px;
+  padding: 29px 26px 6px 26px;
+  text-align: center;
+  color: #FFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: transparent;} 
+
+ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
+{ color: #FFF;
+  background: #222121 url(menu_select.png) repeat-x;}
+
+body{
+  background-image: url("https://s1.1zoom.me/b5052/644/Dogs_Cats_Rabbits_White_background_Shepherd_Puppy_526372_2560x1440.jpg");
+  background-size: 1640px 950px;
+  background-repeat:no-repeat;
+}
+
+.logo{
+   padding-left: 0px;
+   size: 300px 300px;
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+  
